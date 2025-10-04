@@ -74,5 +74,11 @@
   },
   "engines": {
     "node": ">= 20"
+  },
+  "exports": {
+    ".": {
+      "import": "index.js",
+      "default": "index.js"
+    }
   }
 }
